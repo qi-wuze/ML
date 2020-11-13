@@ -10,3 +10,4 @@ def hhh(s):
 
 print(hhh(1))
 print("hello world")
+print("HELLO WORLD")
