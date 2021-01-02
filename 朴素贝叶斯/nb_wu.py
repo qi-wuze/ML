@@ -58,7 +58,7 @@ class nb:
 def predict():
     n_b = nb()
     a = np.array(pd.read_table('data.txt', sep=" ", header=None))
-    b = ['不帅', '不好', '矮', '不上进']
+    b = ['不帅', '不好', '高', '不上进']
     n_b.fit(b, a)
 
 
